@@ -1,0 +1,31 @@
+
+
+
+header, body {
+	background-color: #2e4353;
+}
+
+header {
+	background-image: url(../appcare-logo.png);
+	background-repeat: no-repeat;
+	background-size: 870px;
+	background-position: 50px 0px;
+	border-bottom: solid 10px;
+	color: #2f7bbe;
+	height: 160px;
+	margin: 80px 80px;
+}
+
+img {
+
+	height: 70%;
+	width: 70%;
+	float: right;
+	padding: 20px;
+
+}
+
+form {
+	padding: 20px 20px;
+	color: white;
+}

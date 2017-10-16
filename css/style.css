@@ -1,0 +1,75 @@
+@font-face {
+  font-family: GothamBook;
+  src: url(../fonts/gotham-book.otf); }
+header, body {
+  background-color: #2e4353;
+  font: bold; }
+
+header {
+  background-image: url(../app-care-logo-wide.png);
+  background-size: 1350px;
+  background-position: 50px 0px;
+  border-bottom: solid 10px;
+  color: #2f7bbe;
+  margin: 20px 20px; }
+  @media only screen and (min-width: 480px) {
+    header {
+      background-size: 1600px; } }
+
+@media only screen and (min-width: 480px) {
+  .container {
+    margin: 30px 20px; } }
+
+@media only screen and (min-width: 1000px) {
+  .left-form {
+    padding-right: 20px; } }
+
+img {
+  float: right;
+  padding: 0px;
+  background-position: 50px 0px;
+  width: 100px;
+  height: 40px;
+  margin: 15px; }
+  @media only screen and (min-width: 480px) {
+    img {
+      margin: 0px 80px;
+      height: 50px;
+      width: 140px; } }
+
+form {
+  padding: 0px 10px; }
+  @media only screen and (min-width: 480px) {
+    form {
+      padding: 0px 90px; } }
+
+.form-control {
+  background-color: #364a59;
+  border: none;
+  color: white; }
+
+.btn {
+  color: white; }
+
+.dropdown-toggle {
+  background-color: #364a59;
+  border: none; }
+
+.caret {
+  color: #2f7bbe; }
+
+.register {
+  text-decoration: none;
+  font-family: GothamBook;
+  margin: 40px 80px 40px 80px;
+  float: right;
+  color: #2f7bbe;
+  font-size: 2em;
+  overflow: visible; }
+
+ul li {
+  background-image: url(../error-arrow.png);
+  padding: 2px;
+  margin: 2px; }
+
+/*# sourceMappingURL=style.css.map */
